@@ -1,0 +1,51 @@
+* ------------------------------------------------------*
+*              GENERIC PWR MODEL                        *
+* ------------------------------------------------------*
+
+TTL  * GENERIC PWR MODEL - FUEL PWRU200C00 BASE AND BRANCHES
+
+************ INVARIANT DATA **************
+PDE 104.5 'KWL' 
+PRE 155.0 
+TFU 820.5 
+TMO 579.5 
+BOR 600.00
+PWR 17  1.26 21.50
+PIN 1   0.410   0.417   0.475 * FUEL PIN 
+PIN 2   0.400   0.407   0.475 * FUEL PIN 
+PIN 3   0.420   0.427   0.475 * FUEL PIN 
+******************************************
+
+
+***** SEGMENT SPECIFIC
+*      SEGNAME    
+SIM, 'PWRU500C00' 
+FUE 1, 10.289 / 3.00
+
+LPI
+4
+1  1
+1  1  1
+5  1  1  5
+1  1  1  1  1
+1  1  1  1  1  5  
+5  1  1  5  1  1  1  
+1  1  1  1  1  1  1  1
+1  1  1  1  1  1  1  1  1
+*****
+
+***** STANDARD MECHANICAL DESIGN SPECIFIC *********
+PIN 4  0.573   0.613  / 'COO'    'BOX'  * INSTR TUBE
+PIN 5  0.573   0.613 /  'COO'    'BOX'  * GUIDE TUBE
+
+PIN 5   0.434  0.438  0.485  0.573   0.613  / 
+        'AIC'  'AIR'  'CRS'   'COO'   'BOX' 
+        // 1  'CR1' 'ROD'                * RCCA
+
+SPA 14.574,,, 8.14 / 718=79.55  347=20.45  * SPACER 
+****************************************************
+
+
+*
+DEP, -30.00  
+END
