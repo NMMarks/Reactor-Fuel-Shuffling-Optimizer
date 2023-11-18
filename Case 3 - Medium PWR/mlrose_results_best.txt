@@ -1,0 +1,111 @@
+Results from mlrose Optimization of SIMULATE-3 Core Arrangement 
+
+Number of Inputs: 940
+Time to Complete: 
+Pre-optimization: 3461.940799474716
+Optimization: 4071.465622374788
+Total Period: 7533.406421849504
+
+Starting Design: 
+EOC k-effective: 0.898134    Max Nodal Peaking Factor: 2.59    Fitness Value: 168.28469572045702
+ 1  1                 C01 C02 C03 C04                
+ 2  1             C05 C06 B01 B02 C07 C08            
+ 3  1         C09 C37 B05 A02 A03 B06 C38 C10        
+ 4  1     C11 A04 B07 A05 B08 B09 A07 B10 A08 C12    
+ 5  1 C13 C39 B11 A09 B12 B45 B46 B13 A12 B14 C40 C14
+ 6  1 C15 A18 B21 A19 B47 A20 A21 B48 A22 B24 A23 C16
+ 7  1 C21 A31 B25 A32 B49 A33 A34 B50 A35 B28 A36 C22
+ 8  1 C23 C41 B35 A42 B36 B51 B52 B37 A45 B38 C42 C24
+ 9  1     C25 A46 B39 A47 B40 B41 A49 B42 A50 C26    
+10  1         C27 C43 B43 A51 A52 B44 C44 C28        
+11  1             C29 C30 B03 B04 C31 C32            
+12  1                 C33 C34 C35 C36                
+'SEG.DAT'  04 2.00,  0.0,  0,  0/
+'SEG.DAT'  05 2.50, 0.71, 12, 12/
+'SEG.DAT'  06 2.50, 0.71, 16, 16/
+'SEG.DAT'  07 3.20,  0.0,  0,  0/
+'SEG.DAT'  08 3.20, 0.71, 16, 16/ 
+
+
+Final Design: 
+EOC k-effective: 0.973409    Max Nodal Peaking Factor: 2.091    Fitness Value: 193.10467390234942
+ 1  1                 C01 C05 C08 C04                
+ 2  1             B11 C15 B45 B46 C16 B14            
+ 3  1         B05 C13 C37 A05 A07 C38 C14 B06        
+ 4  1     C06 B47 B07 A04 A19 A22 A08 B10 B48 C07    
+ 5  1 C09 C39 C02 A09 B12 B21 B24 B13 A12 C03 C40 C10
+ 6  1 C11 A18 B01 A02 B08 A20 A21 B09 A03 B02 A23 C12
+ 7  1 C25 A31 B03 A51 B40 A33 A34 B41 A52 B04 A36 C26
+ 8  1 C27 C41 C34 A42 B36 B25 B28 B37 A45 C35 C42 C28
+ 9  1     C30 B49 B39 A46 A32 A35 A50 B42 B50 C31    
+10  1         B43 C23 C43 A47 A49 C44 C24 B44        
+11  1             B35 C21 B51 B52 C22 B38            
+12  1                 C33 C29 C32 C36                
+'SEG.DAT'  04 3.07, 0.0, 0, 0/ 
+'SEG.DAT'  05 2.86, 1.40, 12, 12/ 
+'SEG.DAT'  06 3.03, 3.68, 16, 16/ 
+'SEG.DAT'  07 4.49, 0.0, 0, 0/ 
+'SEG.DAT'  08 4.66, 0.75, 16, 16/ 
+
+
+Best Data Runs: 
+Best Fitness: 
+EOC k-effective: 0.973418    Max Nodal Peaking Factor: 2.091    Fitness Value: 193.1056667164284
+ 1  1                 C01 C05 C08 C04                
+ 2  1             B11 C15 B45 B46 C16 B14            
+ 3  1         B05 C13 C37 A05 A07 C38 C14 B06        
+ 4  1     C06 B47 B07 A04 A19 A22 A08 B10 B48 C07    
+ 5  1 C09 C39 C02 A09 B12 B21 B24 B13 A12 C03 C40 C10
+ 6  1 C11 A18 B01 A02 B08 A20 A21 B09 A03 B02 A23 C12
+ 7  1 C25 A31 B03 A51 B40 A33 A34 B41 A52 B04 A36 C26
+ 8  1 C27 C41 C34 A42 B36 B25 B28 B37 A45 C35 C42 C28
+ 9  1     C30 B49 B39 A46 A32 A35 A50 B42 B50 C31    
+10  1         B43 C23 C43 A47 A49 C44 C24 B44        
+11  1             B35 C21 B51 B52 C22 B38            
+12  1                 C33 C29 C32 C36                
+'SEG.DAT'  04 3.07, 0.0, 0, 0/ 
+'SEG.DAT'  05 2.86, 1.40, 12, 12/ 
+'SEG.DAT'  06 3.03, 3.51, 16, 16/ 
+'SEG.DAT'  07 4.49, 0.0, 0, 0/ 
+'SEG.DAT'  08 4.66, 0.75, 16, 16/ 
+
+Best EOC k: 
+EOC k-effective: 1.013894    Max Nodal Peaking Factor: 2.84    Fitness Value: 174.96213792462186
+ 1  1                 C01 C05 C08 C04                
+ 2  1             B11 C15 B45 B46 C16 B14            
+ 3  1         B05 C13 C37 A05 A07 C38 C14 B06        
+ 4  1     C06 B47 B07 A04 A19 A22 A08 B10 B48 C07    
+ 5  1 C09 C39 C02 A09 B12 B21 B24 B13 A12 C03 C40 C10
+ 6  1 C11 A18 B01 A02 B08 A20 A21 B09 A03 B02 A23 C12
+ 7  1 C25 A31 B03 A51 B40 A33 A34 B41 A52 B04 A36 C26
+ 8  1 C27 C41 C34 A42 B36 B25 B28 B37 A45 C35 C42 C28
+ 9  1     C30 B49 B39 A46 A32 A35 A50 B42 B50 C31    
+10  1         B43 C23 C43 A47 A49 C44 C24 B44        
+11  1             B35 C21 B51 B52 C22 B38            
+12  1                 C33 C29 C32 C36                
+'SEG.DAT'  04 4.99, 0.0, 0, 0/ 
+'SEG.DAT'  05 2.86, 0.71, 12, 12/ 
+'SEG.DAT'  06 3.03, 0.71, 16, 16/ 
+'SEG.DAT'  07 4.49, 0.0, 0, 0/ 
+'SEG.DAT'  08 4.66, 0.71, 16, 16/ 
+
+Best max NPF: 
+EOC k-effective: 0.973409    Max Nodal Peaking Factor: 2.091    Fitness Value: 193.10467390234942
+ 1  1                 C01 C05 C08 C04                
+ 2  1             B11 C15 B45 B46 C16 B14            
+ 3  1         B05 C13 C37 A05 A07 C38 C14 B06        
+ 4  1     C06 B47 B07 A04 A19 A22 A08 B10 B48 C07    
+ 5  1 C09 C39 C02 A09 B12 B21 B24 B13 A12 C03 C40 C10
+ 6  1 C11 A18 B01 A02 B08 A20 A21 B09 A03 B02 A23 C12
+ 7  1 C25 A31 B03 A51 B40 A33 A34 B41 A52 B04 A36 C26
+ 8  1 C27 C41 C34 A42 B36 B25 B28 B37 A45 C35 C42 C28
+ 9  1     C30 B49 B39 A46 A32 A35 A50 B42 B50 C31    
+10  1         B43 C23 C43 A47 A49 C44 C24 B44        
+11  1             B35 C21 B51 B52 C22 B38            
+12  1                 C33 C29 C32 C36                
+'SEG.DAT'  04 3.07, 0.0, 0, 0/ 
+'SEG.DAT'  05 2.86, 1.40, 12, 12/ 
+'SEG.DAT'  06 3.03, 3.68, 16, 16/ 
+'SEG.DAT'  07 4.49, 0.0, 0, 0/ 
+'SEG.DAT'  08 4.66, 0.75, 16, 16/ 
+
