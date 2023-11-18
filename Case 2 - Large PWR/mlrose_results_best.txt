@@ -1,0 +1,126 @@
+Results from mlrose Optimization of SIMULATE-3 Core Arrangement 
+
+Number of Inputs: 1114
+Time to Complete: 
+Pre-optimization: 3429.007338065654
+Optimization: 4425.3209366723895
+Total Period: 7854.328274738044
+
+Starting Design: 
+EOC k-effective: 0.900609    Max Nodal Peaking Factor: 2.577    Fitness Value: 163.89759620576424
+ 1  1                         C01 C02 C03                        
+ 2  1                 C04 C05 C45 A01 C46 C06 C07                
+ 3  1             C08 C37 B05 A02 B01 A03 B06 C38 C09            
+ 4  1         C10 A04 B07 A05 B08 A06 B09 A07 B10 A08 C11        
+ 5  1     C12 C39 B11 A09 B12 A10 B45 A11 B13 A12 B14 C40 C13    
+ 6  1     C14 B15 A13 B16 A14 B17 A15 B18 A16 B19 A17 B20 C15    
+ 7  1 C16 C47 A18 B21 A19 B22 A20 B46 A21 B23 A22 B24 A23 C48 C17
+ 8  1 C18 A24 B02 A25 B47 A26 B48 A27 B49 A28 B50 A29 B03 A30 C19
+ 9  1 C20 C49 A31 B25 A32 B26 A33 B51 A34 B27 A35 B28 A36 C50 C21
+10  1     C22 B29 A37 B30 A38 B31 A39 B32 A40 B33 A41 B34 C23    
+11  1     C24 C41 B35 A42 B36 A43 B52 A44 B37 A45 B38 C42 C25    
+12  1         C26 A46 B39 A47 B40 A48 B41 A49 B42 A50 C27        
+13  1             C28 C43 B43 A51 B04 A52 B44 C44 C29            
+14  1                 C30 C31 C51 A53 C52 C32 C33                
+15  1                         C34 C35 C36                        
+'SEG.DAT'  04 2.00,  0.0,  0,  0/
+'SEG.DAT'  05 2.50, 0.71, 12, 12/
+'SEG.DAT'  06 2.50, 0.71, 16, 16/
+'SEG.DAT'  07 3.20,  0.0,  0,  0/
+'SEG.DAT'  08 3.20, 0.71, 16, 16/ 
+
+
+Final Design: 
+EOC k-effective: 0.916083    Max Nodal Peaking Factor: 2.02    Fitness Value: 183.45061172285224
+ 1  1                         C05 B45 C09                        
+ 2  1                 B15 B08 C45 C02 C11 C03 C13                
+ 3  1             C47 C39 C01 B22 A06 B19 C40 C07 B20            
+ 4  1         B05 B11 C14 B21 A10 A15 A08 A03 B13 B10 C46        
+ 5  1     C04 C12 B16 A13 A20 B07 B46 B23 A17 A07 C06 C38 B06    
+ 6  1     C16 C37 A18 A05 A09 A02 A01 A16 A12 A21 B09 C17 B24    
+ 7  1 C10 C08 B12 A04 B17 A14 A19 B01 A11 A23 B14 A22 B18 C48 C15
+ 8  1 B47 C18 A25 A26 B48 A24 B02 A27 B03 A30 B49 A28 A29 C19 B50
+ 9  1 C22 C49 B31 A32 B35 A31 A43 B04 A35 A40 B32 A50 B37 C29 C27
+10  1     B25 C20 B40 A33 A42 A38 A53 A52 A45 A49 A36 C44 C21    
+11  1     B43 C43 C31 A47 A37 B26 B51 B42 A34 A41 B33 C25 C33    
+12  1         C51 B39 B36 A51 A46 A39 A44 B28 C23 B38 B44        
+13  1             B29 C30 C41 B30 A48 B27 C36 C42 C50            
+14  1                 C24 C34 C26 C35 C52 B41 B34                
+15  1                         C28 B52 C32                        
+'SEG.DAT'  04 2.12, 0.0, 0, 0/ 
+'SEG.DAT'  05 2.67, 1.12, 12, 12/ 
+'SEG.DAT'  06 2.75, 0.89, 16, 16/ 
+'SEG.DAT'  07 3.33, 0.0, 0, 0/ 
+'SEG.DAT'  08 3.23, 1.55, 16, 16/ 
+
+
+Best Data Runs: 
+Best Fitness: 
+EOC k-effective: 0.915637    Max Nodal Peaking Factor: 2.015    Fitness Value: 183.6064167897727
+ 1  1                         C05 B45 C09                        
+ 2  1                 B15 B08 C45 C02 C11 C03 C13                
+ 3  1             C47 C39 C01 B22 A06 B19 C40 C07 B20            
+ 4  1         B05 B11 C14 B21 A10 A15 A08 A03 B13 B10 C46        
+ 5  1     C04 C12 B16 A13 A20 B07 B46 B23 A17 A07 C06 C38 B06    
+ 6  1     C16 C37 A18 A05 A09 A02 A01 A16 A12 A21 B09 C17 B24    
+ 7  1 C10 C08 B12 A04 B17 A14 A19 B01 A11 A23 B14 A22 B18 C48 C15
+ 8  1 B47 C18 A25 A26 B48 A24 B02 A27 B03 A30 B49 A28 A29 C19 B50
+ 9  1 C22 C49 B31 A32 B35 A31 A43 B04 A35 A40 B32 A50 B37 C29 C27
+10  1     B25 C20 B40 A33 A42 A38 A53 A52 A45 A49 A36 C44 C21    
+11  1     B43 C43 C31 A47 A37 B26 B51 B42 A34 A41 B33 C25 C33    
+12  1         C51 B39 B36 A51 A46 A39 A44 B28 C23 B38 B44        
+13  1             B29 C30 C41 B30 A48 B27 C36 C42 C50            
+14  1                 C24 C34 C26 C35 C52 B41 B34                
+15  1                         C28 B52 C32                        
+'SEG.DAT'  04 2.12, 0.0, 0, 0/ 
+'SEG.DAT'  05 2.67, 1.78, 12, 12/ 
+'SEG.DAT'  06 2.75, 4.57, 16, 16/ 
+'SEG.DAT'  07 3.33, 0.0, 0, 0/ 
+'SEG.DAT'  08 3.23, 4.70, 16, 16/ 
+
+Best EOC k: 
+EOC k-effective: 1.000464    Max Nodal Peaking Factor: 3.556    Fitness Value: 157.07153454230792
+ 1  1                         C05 B45 C09                        
+ 2  1                 B15 B08 C45 C02 C11 C03 C13                
+ 3  1             C47 C39 C01 B22 A06 B19 C40 C07 B20            
+ 4  1         B05 B11 C14 B21 A10 A15 A08 A03 B13 B10 C46        
+ 5  1     C04 C12 B16 A13 A20 B07 B46 B23 A17 A07 C06 C38 B06    
+ 6  1     C16 C37 A18 A05 A09 A02 A01 A16 A12 A21 B09 C17 B24    
+ 7  1 C10 C08 B12 A04 B17 A14 A19 B01 A11 A23 B14 A22 B18 C48 C15
+ 8  1 B47 C18 A25 A26 B48 A24 B02 A27 B03 A30 B49 A28 A29 C19 B50
+ 9  1 C22 C49 B31 A32 B35 A31 A43 B04 A35 A40 B32 A50 B37 C29 C27
+10  1     B25 C20 B40 A33 A42 A38 A53 A52 A45 A49 A36 C44 C21    
+11  1     B43 C43 C31 A47 A37 B26 B51 B42 A34 A41 B33 C25 C33    
+12  1         C51 B39 B36 A51 A46 A39 A44 B28 C23 B38 B44        
+13  1             B29 C30 C41 B30 A48 B27 C36 C42 C50            
+14  1                 C24 C34 C26 C35 C52 B41 B34                
+15  1                         C28 B52 C32                        
+'SEG.DAT'  04 4.94, 0.0, 0, 0/ 
+'SEG.DAT'  05 2.67, 0.71, 12, 12/ 
+'SEG.DAT'  06 2.75, 0.71, 16, 16/ 
+'SEG.DAT'  07 3.33, 0.0, 0, 0/ 
+'SEG.DAT'  08 3.23, 0.71, 16, 16/ 
+
+Best max NPF: 
+EOC k-effective: 0.915637    Max Nodal Peaking Factor: 2.015    Fitness Value: 183.6064167897727
+ 1  1                         C05 B45 C09                        
+ 2  1                 B15 B08 C45 C02 C11 C03 C13                
+ 3  1             C47 C39 C01 B22 A06 B19 C40 C07 B20            
+ 4  1         B05 B11 C14 B21 A10 A15 A08 A03 B13 B10 C46        
+ 5  1     C04 C12 B16 A13 A20 B07 B46 B23 A17 A07 C06 C38 B06    
+ 6  1     C16 C37 A18 A05 A09 A02 A01 A16 A12 A21 B09 C17 B24    
+ 7  1 C10 C08 B12 A04 B17 A14 A19 B01 A11 A23 B14 A22 B18 C48 C15
+ 8  1 B47 C18 A25 A26 B48 A24 B02 A27 B03 A30 B49 A28 A29 C19 B50
+ 9  1 C22 C49 B31 A32 B35 A31 A43 B04 A35 A40 B32 A50 B37 C29 C27
+10  1     B25 C20 B40 A33 A42 A38 A53 A52 A45 A49 A36 C44 C21    
+11  1     B43 C43 C31 A47 A37 B26 B51 B42 A34 A41 B33 C25 C33    
+12  1         C51 B39 B36 A51 A46 A39 A44 B28 C23 B38 B44        
+13  1             B29 C30 C41 B30 A48 B27 C36 C42 C50            
+14  1                 C24 C34 C26 C35 C52 B41 B34                
+15  1                         C28 B52 C32                        
+'SEG.DAT'  04 2.12, 0.0, 0, 0/ 
+'SEG.DAT'  05 2.67, 1.78, 12, 12/ 
+'SEG.DAT'  06 2.75, 4.57, 16, 16/ 
+'SEG.DAT'  07 3.33, 0.0, 0, 0/ 
+'SEG.DAT'  08 3.23, 4.70, 16, 16/ 
+
