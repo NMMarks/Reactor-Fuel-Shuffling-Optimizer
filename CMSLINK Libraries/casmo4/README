@@ -1,1 +1,4 @@
 The following are the CASMO-4 fuel assembly files.
+A lot of configurations to the fuel assembly enrichments and burnable absorbers.
+The maximum number of assemblies usable in a single .lib file is ten.
+However, this directory serves as a storage of all the fuel assemblies considered for the project.
