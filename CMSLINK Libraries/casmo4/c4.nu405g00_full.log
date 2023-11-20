@@ -1,0 +1,73 @@
+ Reserving general partition A  with:   14.0 Mwords (default)
+ Reserving neutron partition B1 with:    4.0 Mwords (default)
+ Reserving gamma   partition B2 with:    4.0 Mwords (default)
+ Total allocation                   :   18.0 Mwords (A+B1)
+ CASMO library identified as E6 0200 UPDATE D
+ __________________________________________________________________________________________
+ * C A S M O - 4E 1.00.02 REV:00 CREATED:2012/05/08 STUDSVIK * EXECUTED 2022/12/29 17:30:18
+
+ This source code includes the following optional modules:
+      1 - CASMO-4E (CASMO-4 Extended Version).
+      2 - MxN extended multi-assembly module present.
+      3 - Hexagonal module present.
+      4 - CLU/AGR module present.
+      5 - PSC Tiff/PostScript capability active.
+      6 - Azimuthal depletion model present.
+      7 - FSS/FSC model present.
+      8 - Extra cards present.
+      9 - Pn higher order scattering model present.
+     10 - DIA Rotated water hole model present.
+     11 - CCR Extended C.R. model present.
+
+       LIST OF USER FILES
+       ******************
+ EXECUTABLE FILE               /opt/studsvik/libexec/studsvik/casmo4e/casmo4e-u1.00.02/casmo4e.exe
+ NEUTRON DATA LIBRARY FILE     /opt/studsvik/lib/studsvik/casmo4e/e60200
+ GAMMA DATA LIBRARY FILE       /opt/studsvik/lib/studsvik/casmo4e/galb418
+ INPUT FILE                    c4.nu405g00_full.inp
+ OUTPUT LIST FILE              ./c4.nu405g00_full.out
+ CARD IMAGE FILE (SEG1)        ./c4.nu405g00_full.cax
+ 
+ [WARNING] IN INP_PIN             COO in a non-fuel pin detected -MOD is recommended for pin # 2
+ [WARNING] IN INP_PIN             COO in a non-fuel pin detected -MOD is recommended for pin # 3
+ [WARNING] IN INP_MIX             ID=718 detected for SPA material but Zirc default [ 7.0000E-06] for thermal expansion coeff. (C) used.
+ [WARNING] IN EDTFTD              Non-default neutron data library is attached.
+ 17:34:19 Executing statepoint No. 00112 ( 27.9 S.P./min )
+ [USAGE NOTE] IN ROUNDER          TMO initial value: 602.230 rounded to: 602.200 difference= -0.030
+ 17:38:20 Executing statepoint No. 00337 ( 42.0 S.P./min )
+ 17:42:21 Executing statepoint No. 00563 ( 46.7 S.P./min )
+ 17:46:22 Executing statepoint No. 00793 ( 49.4 S.P./min )
+ 17:50:24 Executing statepoint No. 00880 ( 43.8 S.P./min )
+ 17:54:25 Executing statepoint No. 01035 ( 42.9 S.P./min )
+ 17:58:37 Executing statepoint No. 01131 ( 39.9 S.P./min )
+ 18:02:40 Executing statepoint No. 01193 ( 36.9 S.P./min )
+ 18:06:41 Executing statepoint No. 01280 ( 35.2 S.P./min )
+
+
+ RUN TERMINATED.  5  WARNING(S) ENCOUNTERED
+   0  FATAL ERROR(S),     4  WARNING(S)
+   1  USAGE NOTE(S),      0  CAUTION(S)
+
+
+                   Neutron Calculation                         
+ Memory Use        Allocated       Used                         
+ A Array            14000000    5306789
+ B Array             4000000     240846
+                    --------    -------
+ Total Words        18000000    5547635
+ Total Mwords           18.0        5.5
+ Total Mbytes           72.0       22.2
+
+ Run Started     (Date,Time):  2022/12/29   17:30:18  
+ Run Completed   (Date,Time):  2022/12/29   18:09:31  
+ Total Wall Time Used       :               00:39:13
+ Total CPU  Time Used       :               00:37:06   CPU Utilization:   94%
+ Files:
+ Input                      :  c4.nu405g00_full.inp
+ Output                     :  ./c4.nu405g00_full.out
+ Card Image                 :  ./c4.nu405g00_full.cax
+ *********************************
+ *  CASMO-4E NORMAL TERMINATION  *
+ *     -WARNINGS ENCOUNTERED-    *
+ *********************************
+C-4E Complete....
