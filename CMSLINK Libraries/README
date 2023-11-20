@@ -1,2 +1,3 @@
 The following contains the CMSLINK files used to build the libraries used in the examples.
-Included are the CASMO-4 files used to construct the assemblies and the CMSLINK files to build the .lib files.
+Included are the CASMO-4 files used to define the assemblies and the CMSLINK files to build the .lib files.
+All CASMO-4 assemblies are eighth-core symmetrical with enriched U-235 fuel rods.
