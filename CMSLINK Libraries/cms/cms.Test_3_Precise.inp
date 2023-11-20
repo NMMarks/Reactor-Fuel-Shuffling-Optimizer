@@ -1,0 +1,55 @@
+'MOX' 'ON' /
+'NEW' 'cms.Equi-Precise-3.lib'/
+'CAS' '../casmo4/c4.nu100c00.cax' 'NU100C00'/
+'STA'/
+
+'CAS' '../casmo4/c4.nu300c00.cax' 'NU300C00'/
+'STA'/
+
+'CAS' '../casmo4/c4.nu455c00.cax' 'NU455C00'/
+'STA'/
+
+'CAS' '../casmo4/c4.nu500c00.cax' 'NU500C00'/
+'STA'/
+
+'CAS' '../casmo4/c4.nu455g40.cax' 'NU455G40'/
+'STA'/
+
+'SCP' 'ENR'/
+'CAS' '../casmo4/c4.nu050c00.cax' 'NUENRC00'/
+'CAS' '../casmo4/c4.nu100c00.cax' 'NUENRC00'/
+'CAS' '../casmo4/c4.nu150c00.cax' 'NUENRC00'/
+'CAS' '../casmo4/c4.nu200c00.cax' 'NUENRC00'/
+'CAS' '../casmo4/c4.nu250c00.cax' 'NUENRC00'/
+'CAS' '../casmo4/c4.nu300c00.cax' 'NUENRC00'/
+'CAS' '../casmo4/c4.nu350c00.cax' 'NUENRC00'/
+'CAS' '../casmo4/c4.nu400c00.cax' 'NUENRC00'/
+'CAS' '../casmo4/c4.nu450c00.cax' 'NUENRC00'/
+'CAS' '../casmo4/c4.nu500c00.cax' 'NUENRC00'/
+'STA'/
+
+'SCP' 'ENR' 'WBA'/
+'CAS' '../casmo4/c4.nu100g30_full.cax' 'NUBPNG00'/
+'CAS' '../casmo4/c4.nu200g10_full.cax' 'NUBPNG00'/
+'CAS' '../casmo4/c4.nu200g50_full.cax' 'NUBPNG00'/
+'CAS' '../casmo4/c4.nu300g30_full.cax' 'NUBPNG00'/
+'CAS' '../casmo4/c4.nu300g40_full.cax' 'NUBPNG00'/
+'CAS' '../casmo4/c4.nu400g10_full.cax' 'NUBPNG00'/
+'CAS' '../casmo4/c4.nu400g30_full.cax' 'NUBPNG00'/
+'CAS' '../casmo4/c4.nu455g40_full.cax' 'NUBPNG00'/
+'CAS' '../casmo4/c4.nu500g30_full.cax' 'NUBPNG00'/
+'CAS' '../casmo4/c4.nu500g50_full.cax' 'NUBPNG00'/
+'STA'/
+
+'CAS' '../casmo4/radref.cax' , , 0 'RAD'/
+'STA'/
+
+'CAS' '../casmo4/topref.cax' , , 0 'TOP'/
+'STA'/
+
+'CAS' '../casmo4/botref.cax' , , 0 'BOT'/                                                                
+'STA'/
+
+'END'/
+
+

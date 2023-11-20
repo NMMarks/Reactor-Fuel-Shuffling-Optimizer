@@ -1,0 +1,46 @@
+'MOX' 'ON' /
+'NEW' 'cms.Test-1-Fine.lib'/
+'CAS' '../casmo4/c4.nu100c00.cax' 'NU100C00'/
+'STA'/
+
+'CAS' '../casmo4/c4.nu300c00.cax' 'NU300C00'/
+'STA'/
+
+'CAS' '../casmo4/c4.nu455c00.cax' 'NU455C00'/
+'STA'/
+
+'CAS' '../casmo4/c4.nu500c00.cax' 'NU500C00'/
+'STA'/
+
+'CAS' '../casmo4/c4.nu455g30.cax' 'NU455G30'/
+'STA'/
+
+'SCP' 'ENR'/
+'CAS' '../casmo4/c4.nu100c00.cax' 'NUENRC00'/
+'CAS' '../casmo4/c4.nu200c00.cax' 'NUENRC00'/
+'CAS' '../casmo4/c4.nu300c00.cax' 'NUENRC00'/
+'CAS' '../casmo4/c4.nu400c00.cax' 'NUENRC00'/
+'CAS' '../casmo4/c4.nu500c00.cax' 'NUENRC00'/
+'STA'/
+
+'SCP' 'WBA'/
+'CAS' '../casmo4/c4.nu455g05.cax' 'NUBPNG00'/
+'CAS' '../casmo4/c4.nu455g10.cax' 'NUBPNG00'/
+'CAS' '../casmo4/c4.nu455g20.cax' 'NUBPNG00'/
+'CAS' '../casmo4/c4.nu455g30.cax' 'NUBPNG00'/
+'CAS' '../casmo4/c4.nu455g40.cax' 'NUBPNG00'/
+'CAS' '../casmo4/c4.nu455g50.cax' 'NUBPNG00'/
+'STA'/
+
+'CAS' '../casmo4/radref.cax' , , 0 'RAD'/
+'STA'/
+
+'CAS' '../casmo4/topref.cax' , , 0 'TOP'/
+'STA'/
+
+'CAS' '../casmo4/botref.cax' , , 0 'BOT'/                                                                
+'STA'/
+
+'END'/
+
+
