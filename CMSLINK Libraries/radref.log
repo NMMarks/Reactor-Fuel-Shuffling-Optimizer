@@ -1,0 +1,68 @@
+ Reserving general partition A  with:   14.0 Mwords (default)
+ Reserving neutron partition B1 with:    4.0 Mwords (default)
+ Reserving gamma   partition B2 with:    4.0 Mwords (default)
+ Total allocation                   :   18.0 Mwords (A+B1)
+ CASMO library identified as E6 0200 UPDATE D
+ __________________________________________________________________________________________
+ * C A S M O - 4E 1.00.02 REV:00 CREATED:2012/05/08 STUDSVIK * EXECUTED 2022/04/04 10:58:39
+
+ This source code includes the following optional modules:
+      1 - CASMO-4E (CASMO-4 Extended Version).
+      2 - MxN extended multi-assembly module present.
+      3 - Hexagonal module present.
+      4 - CLU/AGR module present.
+      5 - PSC Tiff/PostScript capability active.
+      6 - Azimuthal depletion model present.
+      7 - FSS/FSC model present.
+      8 - Extra cards present.
+      9 - Pn higher order scattering model present.
+     10 - DIA Rotated water hole model present.
+     11 - CCR Extended C.R. model present.
+
+       LIST OF USER FILES
+       ******************
+ EXECUTABLE FILE               /opt/studsvik/libexec/studsvik/casmo4e/casmo4e-u1.00.02/casmo4e.exe
+ NEUTRON DATA LIBRARY FILE     /opt/studsvik/lib/studsvik/casmo4e/e60200
+ GAMMA DATA LIBRARY FILE       /opt/studsvik/lib/studsvik/casmo4e/galb418
+ INPUT FILE                    radref.inp
+ OUTPUT LIST FILE              ./radref.out
+ CARD IMAGE FILE (SEG1)        ./radref.cax
+ 
+ [WARNING] IN INP_PIN             COO in a non-fuel pin detected -MOD is recommended for pin # 2
+ [WARNING] IN INP_PIN             COO in a non-fuel pin detected -MOD is recommended for pin # 3
+ [WARNING] IN INP_MIX             ID=718 detected for SPA material but Zirc default [ 7.0000E-06] for thermal expansion coeff. (C) used.
+ [WARNING] IN EDTFTD              Non-default neutron data library is attached.
+ [WARNING] IN INP_REF             Total reflector width of only: 12.223 cm. is too thin. SSP recommends >= 15.0 cm
+ [WARNING] IN INP_REF             Check card: *REF*. Radial reflectors should use MOD not COO.
+ [USAGE NOTE] IN ROUNDER          TMO initial value: 602.230 rounded to: 602.200 difference= -0.030
+ 11:02:41 Executing statepoint No. 00021 ( 5.2 S.P./min )
+ 11:06:42 Executing statepoint No. 00039 ( 4.8 S.P./min )
+
+
+ RUN TERMINATED.  7  WARNING(S) ENCOUNTERED
+   0  FATAL ERROR(S),     6  WARNING(S)
+   1  USAGE NOTE(S),      0  CAUTION(S)
+
+
+                   Neutron Calculation                         
+ Memory Use        Allocated       Used                         
+ A Array            14000000   13999893
+ B Array             4000000    2042855
+                    --------    -------
+ Total Words        18000000   16042748
+ Total Mwords           18.0       16.0
+ Total Mbytes           72.0       64.2
+
+ Run Started     (Date,Time):  2022/04/04   10:58:39  
+ Run Completed   (Date,Time):  2022/04/04   11:07:59  
+ Total Wall Time Used       :               00:09:20
+ Total CPU  Time Used       :               00:09:10   CPU Utilization:   98%
+ Files:
+ Input                      :  radref.inp
+ Output                     :  ./radref.out
+ Card Image                 :  ./radref.cax
+ *********************************
+ *  CASMO-4E NORMAL TERMINATION  *
+ *     -WARNINGS ENCOUNTERED-    *
+ *********************************
+C-4E Complete....
