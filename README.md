@@ -7,8 +7,8 @@ Codes used are broken into 3 categories:
 3. SIMULATE-3 optimization file.
 
 ## MLROSE-Package-Modifications
-To overcome a limitation between the then-current version of mlrose and the project objective, an new class in "opt_probs.py" was created called *MarksOpt*.
-*MarksOpt* is near identical to the class *DiscreteOpt*. New in this version, the function **random** now creates a permuted array , and **random_neighbor** instead swaps two element values in the original state.
+To overcome a limitation between the then-current version of mlrose and the project objective, a new class in "opt_probs.py" was created called *MarksOpt*.
+*MarksOpt* is a combinatorial optimization problem derived from *DiscreteOpt* with the function **random** now creating a permuted array , and **random_neighbor** instead swapping two element values in the original state.
 These changes were inspired by the class *TSPOpt* that as it uses permuted arrays as states to change the order of the visited locations.
 
 ## CASMO-Optimization-File
